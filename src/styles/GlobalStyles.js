@@ -2,16 +2,15 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-* {
+  * {
     box-sizing: border-box;
     outline: 0;
-    list-style: none;
   }
 
   :root {
     /*background pallet*/
     --background-1: #353543;
-    --background-2: #272833
+    --background-2: #272833;
 
     /*purple pallet*/
     --purple-1: #605B91;
@@ -38,8 +37,8 @@ export default createGlobalStyle`
 
   /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: none (public domain)*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -61,7 +60,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
