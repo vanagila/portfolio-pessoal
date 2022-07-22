@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, ImageContainer } from "./styles";
 
 export const HomeText = () => {
   return (
