@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-top: 25px;
   color: var(--white-font);
 
@@ -13,7 +13,7 @@ export const Container = styled.div`
   p:first-child {
     font-size: 24px;
     letter-spacing: 2px;
-    text-align: right;
+    text-align: left;
   }
 
   h2 {
