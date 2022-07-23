@@ -1,0 +1,18 @@
+.parent {
+  padding-left: 20px;
+  color: var(--green);
+}
+
+.children {
+  padding-right: 5px;
+  /* padding-left: 3rem; */
+}
+
+.parent-children {
+  padding-left: 3rem;
+  color: var(--green);
+}
+
+.inner-braces {
+  padding-left: 1rem;
+}
