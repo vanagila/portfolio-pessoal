@@ -22,10 +22,9 @@ export const TechsProvider = ({ children }) => {
     {
       id: 4,
       name: "ReactJS",
-      img: "https://s3-alpha-sig.figma.com/img/d067/986c/b2bd28e9de7638f68ebef412e6d28a5b?Expires=1659312000&Signature=WOOcY20EgJrLjYPCg1sif6JbYGjiXqGihFJ9JnPeD1p~C0rpkcP7tPE4kz3HbkrQZilnneNB4hqNfpJTW3LeyPvz2-ojAeofLHaDMpaSQzHChUzWF9leEkoZvqMHt3jGPCZHQ76kqqFbMV9-QGePFVLNNNu37RV34NAEZHAaotRfO21hE4GAw9bl40c7oztwnT3DUepOt2y1tu~ZNgB1ivO78GMw6dxYAP-XEn8-YlY6hD9EHUpcXvM09BKYB6tXNe09lGGDW2Bt-MOoCAUHYcQzvrKuymuUlJSC7kzTcK~rOl2XKlTCJl4~dRnlFMR3vHps0SQGZnjYqxP39~6MPw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      img: "https://icons.veryicon.com/png/o/application/skills-section/react.png",
     },
   ]);
-
   return (
     <TechsContext.Provider value={{ techs }}>{children}</TechsContext.Provider>
   );
