@@ -1,14 +1,11 @@
 import GlobalStyles from "./styles/GlobalStyles";
-import { Home } from "./pages/Home/Home";
-import { TechsProvider } from "./providers/Techs";
+import { Home } from "./pages/Home";
 
 export const App = () => {
   return (
     <>
       <GlobalStyles />
-      <TechsProvider>
-        <Home />
-      </TechsProvider>
+      <Home />
     </>
   );
 };

@@ -5,3 +5,9 @@ export const FirstSection = styled.section`
   padding-top: 10px;
   background-color: var(--background-1);
 `;
+
+export const SecondSection = styled.section`
+  width: 100%;
+  padding-top: 10px;
+  background-color: var(--background-2);
+`;
