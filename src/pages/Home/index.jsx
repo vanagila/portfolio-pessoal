@@ -3,6 +3,7 @@ import { Nav } from "../../components/Nav";
 import { HomeText } from "../../components/HomeText";
 import { JsonText } from "../../components/JsonText";
 import { Techs } from "../../components/Techs";
+import { Projects } from "../../components/Projects";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
 
       <SecondSection>
         <Techs />
+        <Projects />
       </SecondSection>
     </>
   );
