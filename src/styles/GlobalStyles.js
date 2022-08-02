@@ -33,6 +33,7 @@ export default createGlobalStyle`
 
   a {
     text-decoration: none;
+    cursor: pointer;
   }
 
   /* http://meyerweb.com/eric/tools/css/reset/ 
