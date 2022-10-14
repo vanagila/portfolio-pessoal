@@ -14,8 +14,9 @@ export const Home = () => {
         <JsonText />
       </FirstSection>
 
+      <Techs />
+
       <SecondSection>
-        <Techs />
         <Projects />
       </SecondSection>
     </>
