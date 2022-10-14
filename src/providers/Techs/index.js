@@ -7,22 +7,22 @@ export const TechsProvider = ({ children }) => {
     {
       id: 1,
       name: "HTML",
-      img: "https://s3-alpha-sig.figma.com/img/d28b/8070/96328406557889a55a9f043dc7422698?Expires=1659312000&Signature=YyFT9wyu21Vn2ji~ZB4SHwSvAw1tmSrz3J4qzDbtJWlaTx0wyKPfKD1wx8ENXPkvyjmGIrS1G-i2ktAJ~xQUpL-9nxhM7WXNtJEXj6fdjWOW6OGgQGOnchMgqJJYDYXgodReNBIWfS12v57NZWiOuOAwnCRNDCH30wNsf3gJBSJut0Xdzxig0uvPnsfrvL5e7lVDp1c2SsbwiAFvJPCecX~1WXUZ2ZaMyXnDLRhBtgpkZHQ-Hp6dgbIFPoZ9vSBO7fzhYST6Z1zI5ND-uAIiKUxt0X7wp85vHUUfHM3rHAVhcJ1o535UdxnkW6MK-0UQgjbSBZ0mG1iROGvvBvwH-Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     },
     {
       id: 2,
       name: "CSS",
-      img: "https://s3-alpha-sig.figma.com/img/33b1/d700/71556b5bff5d5a6826880df3654bc77c?Expires=1659312000&Signature=SHckIuQknYY89zkze2NMT-ilpRW~YDPilNP92HmVtIFQ8UFmAhY731a6HGvyiUGLeSkdpchhce3rtmj~JbSDqKW7XKUM6xjdk06XlCUzMDZ3SMo87GtB7PDKUkTDaN18c8q7zuwDVfoNWFexjswkqGW1Me0op2gk002wG78uZUabYrFiCiGd3EB758~Cstd8vahctW8JI5KVA9UESHlaKV7Sh5l8PN3C5LbI5JRrLReB59XO7vYCIS60FOIntiPMk1elrcyBWFLFDaHfG~axXQ8WrP5bDYCLy9TrbAq2TvJgOboD32qNEEC4aiXOsDj4dXxR4xDt7rv7jJxTtrXNEw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     },
     {
       id: 3,
       name: "JavaScript",
-      img: "https://s3-alpha-sig.figma.com/img/6b69/397f/c80afbef41c5afb04dc5be663a32a3de?Expires=1659312000&Signature=YUnAS7DRWPv~IHHAC12duPFIEi2L3GGdO0hLOgdan5FLq0vz3pABPSc3IOTFnPaTtAwKaexciHSYyeDcK8WgKvmPFUxo0kIeXewBElkCFSL2s9OJCB-8t6jbieQqDAfaR5Ybw5Sp8gocjvnh-KThkQEVPnY1z1kxJAGj7rr~M-WOlhZfCbmHhIm1F0VnupDwO339M8ppxP9lRU3dYfMi-eGwLe--rzh8T1NT0bDDCXgJ9ph~ImmKwmiHeSl5wV-ylboI2fc32dUnz0oM84e5Wm69kL7QDlekCsVoqWpM4Xz2uIRvO2OtFpYyFO75BuGGvjZtFM7thrLAenXAvZV8NA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
       id: 4,
       name: "ReactJS",
-      img: "https://icons.veryicon.com/png/o/application/skills-section/react.png",
+      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     },
   ]);
   return (
