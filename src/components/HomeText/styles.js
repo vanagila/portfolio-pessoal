@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const Text = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -8,22 +13,17 @@ export const Container = styled.div`
 
   p {
     font-family: var(--introduction-font);
+    font-size: 24px;
+    text-align: left;
   }
 
   p:first-child {
-    font-size: 24px;
     letter-spacing: 2px;
-    text-align: left;
   }
 
   h2 {
     font-family: var(--name-font);
     font-weight: 900;
     font-size: 50px;
-  }
-
-  p:last-child {
-    font-size: 24px;
-    text-align: left;
   }
 `;
