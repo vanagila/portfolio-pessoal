@@ -38,4 +38,9 @@ export const techsData = [
     name: "ReactJS",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
+  {
+    id: 5,
+    name: "TypeScript",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
 ];
