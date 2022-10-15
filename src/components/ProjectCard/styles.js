@@ -8,7 +8,7 @@ export const Container = styled.div`
   height: 238px;
   padding: 10px;
   border-radius: 5px;
-  background-color: var(--purple-2);
+  background-color: var(--purple-1);
   gap: 10px;
   font-family: var(--text-font);
 `;
