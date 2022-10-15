@@ -15,8 +15,9 @@ export const Container = styled.div`
 
 export const Header = styled.div`
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 9px;
 
   svg {
     color: var(--green);
@@ -24,6 +25,7 @@ export const Header = styled.div`
 
   p {
     font-size: 1.063rem;
+    font-weight: 600;
     color: var(--white-font);
   }
 `;
@@ -31,12 +33,14 @@ export const Header = styled.div`
 export const Image = styled.img`
   width: 270px;
   height: 129px;
+  border-radius: 3px;
 `;
 
 export const Links = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-weight: 500;
 
   a {
     color: var(--green);
@@ -47,7 +51,9 @@ export const Tags = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 110%;
+  border-radius: 3px;
+  padding: 5px 0;
+  margin-bottom: 9px;
   background-color: var(--purple-2);
   font-size: 0.75rem;
   color: var(--white-font);
