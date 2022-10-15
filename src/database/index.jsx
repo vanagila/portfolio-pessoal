@@ -1,17 +1,16 @@
-import dhm from "../assets/img/dhm.png";
-
 export const projectsData = [
   {
     id: 1,
     title: "Developer Habits Manager",
-    img: { dhm },
+    img: "https://thumbs2.imgbox.com/5d/8b/rfsCKiud_t.png",
     demo: "https://react-sprint2-kenzie-gestao-de-habitos.vercel.app/",
     repo: "https://github.com/brunnomiguel/react-sprint2-kenzie-gestao-de-habitos.git",
+    tags: ["React - ", "Styled-Component - ", "Context-API - ", "API"],
   },
   {
     id: 2,
     title: "Developer Habits Manager",
-    img: { dhm },
+    img: "https://thumbs2.imgbox.com/5d/8b/rfsCKiud_t.png",
     demo: "https://react-sprint2-kenzie-gestao-de-habitos.vercel.app/",
     repo: "https://github.com/brunnomiguel/react-sprint2-kenzie-gestao-de-habitos.git",
   },

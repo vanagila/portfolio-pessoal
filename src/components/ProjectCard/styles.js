@@ -42,3 +42,13 @@ export const Links = styled.div`
     color: var(--green);
   }
 `;
+
+export const Tags = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 110%;
+  background-color: var(--purple-2);
+  font-size: 0.75rem;
+  color: var(--white-font);
+`;
