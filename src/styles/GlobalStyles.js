@@ -27,6 +27,11 @@ export default createGlobalStyle`
     --text-font: 'Inconsolata', monospace;
   }
 
+  body {
+    background: rgb(53,53,67);
+    background: linear-gradient(180deg, rgba(53,53,67,1) 0%, rgba(39,40,51,1) 35%, rgba(59,55,84,1) 93%);
+  }
+
   button {
     cursor: pointer;
   }

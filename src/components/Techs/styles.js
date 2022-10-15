@@ -7,7 +7,6 @@ export const Container = styled.section`
   gap: 12px;
   padding: 10px 0;
   align-items: center;
-  background-color: var(--purple-2);
 `;
 
 export const Box = styled.div`
