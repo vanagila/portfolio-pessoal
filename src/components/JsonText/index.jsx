@@ -26,7 +26,10 @@ export const JsonText = () => {
         <em className="children">:"^ECMAS6",</em>
         <br />
         <em className="parent-children">"react"</em>
-        <em className="children">:"^17.0.2"</em>
+        <em className="children">:"^18.2.0"</em>
+        <br />
+        <em className="parent-children">"typescript"</em>
+        <em className="children">:"^4.8"</em>
         <br />
         <em className="inner-braces"> &#125;, </em>
         <br />
@@ -37,23 +40,26 @@ export const JsonText = () => {
         <em className="parent-children">"redux"</em>
         <em className="children">:"^8.0.2",</em>
         <br />
-        <em className="parent-children">"context-api",</em>
-        <br />
         <em className="parent-children">"styled-components"</em>
         <em className="children">:"^5.3.5",</em>
         <br />
         <em className="parent-children">"mui"</em>
-        <em className="children">:"^5.9.0"</em>
+        <em className="children">:"^5.9.0",</em>
         <br />
-        <em className="parent-children">"git flow",</em>
+        <em className="parent-children">"chakra ui"</em>
+        <em className="children">:"^2.3.5",</em>
         <br />
-        <em className="parent-children">"api",</em>
+        <em className="parent-children">"context-api"</em>
         <br />
-        <em className="parent-children">"testes",</em>
+        <em className="parent-children">"git flow"</em>
         <br />
-        <em className="parent-children">"ui/ux",</em>
+        <em className="parent-children">"api"</em>
         <br />
-        <em className="parent-children">"conventional commits",</em>
+        <em className="parent-children">"testes"</em>
+        <br />
+        <em className="parent-children">"ui/ux"</em>
+        <br />
+        <em className="parent-children">"conventional commits"</em>
         <br />
         <em className="parent-children">"metodologia scrum"</em>
         <br />
