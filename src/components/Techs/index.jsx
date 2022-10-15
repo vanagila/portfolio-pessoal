@@ -1,10 +1,9 @@
-import { useContext } from "react";
-import { TechsContext } from "../../providers/Techs";
+import { useTechs } from "../../providers/TechsContext";
 
 import { Container, Box } from "./styles";
 
 export const Techs = () => {
-  const { techs } = useContext(TechsContext);
+  const { techs } = useTechs();
 
   return (
     <Container>
