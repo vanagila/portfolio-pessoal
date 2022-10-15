@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { App } from "./App";
-import { TechsProvider } from "./providers/Techs";
+import { Providers } from "../src/providers/index";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TechsProvider>
+    <Providers>
       <App />
-    </TechsProvider>
+    </Providers>
   </React.StrictMode>,
   document.getElementById("root")
 );
