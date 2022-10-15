@@ -1,18 +1,19 @@
-import DHM from "../../assets/img/dhm.png";
-
 import { FiFolder } from "react-icons/fi";
 
-import { Container, Header, Image, Links } from "./styles";
+import { Container, Header, Image, Links, Tags } from "./styles";
 
 export const ProjectCard = ({ project }) => {
-  const { title, img, demo, repo } = project;
+  const { title, img, demo, repo, tags } = project;
+
   return (
     <Container>
       <Header>
         <FiFolder size={35} />
         <p>{title}</p>
       </Header>
-      <Image src={DHM} alt={title} />
+
+      <Image src={img} alt={title} />
+
       <Links>
         <a href={demo} target="_blank" rel="noreferrer">
           Demo
@@ -21,6 +22,8 @@ export const ProjectCard = ({ project }) => {
           Repositório
         </a>
       </Links>
+
+      <Tags>{tags}</Tags>
     </Container>
   );
 };
