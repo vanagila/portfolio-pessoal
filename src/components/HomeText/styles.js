@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   p {
     font-family: var(--introduction-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: left;
   }
 
@@ -25,7 +25,7 @@ export const Container = styled.div`
   h2 {
     font-family: var(--name-font);
     font-weight: 900;
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 `;
 

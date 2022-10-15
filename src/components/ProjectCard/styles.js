@@ -23,7 +23,7 @@ export const Header = styled.div`
   }
 
   p {
-    font-size: 17px;
+    font-size: 1.063rem;
     color: var(--white-font);
   }
 `;

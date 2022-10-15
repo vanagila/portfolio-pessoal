@@ -8,7 +8,7 @@ export const Container = styled.div`
   gap: 15px;
 
   h2 {
-    font-size: 23px;
+    font-size: 1.438rem;
     font-family: var(--introduction-font);
     color: var(--white-font);
   }

@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   color: white;
   font-family: var(--text-font);
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 17px;
   margin-top: 25px;
 `;

@@ -25,6 +25,8 @@ export default createGlobalStyle`
     --introduction-font: 'Share Tech Mono', monospace;
     --name-font: 'Montserrat', sans-serif;
     --text-font: 'Inconsolata', monospace;
+
+    font-size: 16px;
   }
 
   body {
