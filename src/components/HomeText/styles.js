@@ -27,6 +27,14 @@ export const Container = styled.div`
     font-weight: 900;
     font-size: 3.125rem;
   }
+
+  .p-typed {
+    ::after {
+      content: "|";
+      opacity: 1;
+      animation: blink 0.5s infinite;
+    }
+  }
 `;
 
 export const GreetingIllustration = styled.div`
@@ -35,6 +43,20 @@ export const GreetingIllustration = styled.div`
 
   p {
     letter-spacing: 2px;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 
   img {

@@ -49,7 +49,9 @@ export const JsonText = () => {
         <em className="parent-children">"chakra ui"</em>
         <em className="children">:"^2.3.5",</em>
         <br />
-        <em className="parent-children">"context-api"</em>
+        <em className="parent-children">
+          <span>"context-api"</span>
+        </em>
         <br />
         <em className="parent-children">"git flow"</em>
         <br />
