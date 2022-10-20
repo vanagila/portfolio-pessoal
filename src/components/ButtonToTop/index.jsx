@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 import { FaAngleDoubleUp } from "react-icons/fa";
 import { Button } from "./styles";
 
@@ -8,9 +9,9 @@ export const ButtonToTop = () => {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
-        setShowButton(true);
+        setShowButton(!showButton);
       } else {
-        setShowButton(false);
+        setShowButton(showButton);
       }
     });
   }, []);
