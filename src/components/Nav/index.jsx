@@ -1,10 +1,3 @@
-import {
-  FiUser,
-  FiFolder,
-  FiFileText,
-  FiLinkedin,
-  FiGithub,
-} from "react-icons/fi";
 import { Container, NavBar } from "./styles";
 import {
   FaLaptopCode,
