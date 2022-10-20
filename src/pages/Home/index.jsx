@@ -4,20 +4,24 @@ import { HomeText } from "../../components/HomeText";
 import { JsonText } from "../../components/JsonText";
 import { Techs } from "../../components/Techs";
 import { Projects } from "../../components/Projects";
+import { useRef } from "react";
 
 export const Home = () => {
+  const techsRef = useRef(null);
+  const projectsRef = useRef(null);
+
   return (
     <>
       <FirstSection>
-        <Nav />
+        <Nav techsRef={techsRef} projectsRef={projectsRef} />
         <HomeText />
         <JsonText />
       </FirstSection>
 
-      <Techs />
+      <Techs ref={techsRef} />
 
       <SecondSection>
-        <Projects />
+        <Projects ref={projectsRef} />
       </SecondSection>
     </>
   );

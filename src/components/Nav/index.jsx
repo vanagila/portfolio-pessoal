@@ -5,27 +5,47 @@ import {
   FiLinkedin,
   FiGithub,
 } from "react-icons/fi";
-
 import { Container, NavBar } from "./styles";
+import {
+  FaLaptopCode,
+  FaFolderOpen,
+  FaFileAlt,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
 
-export const Nav = () => {
+export const Nav = ({ techsRef, projectsRef }) => {
+  const scrollToTechs = () => {
+    techsRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
+  const scrollToProjects = () => {
+    projectsRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <NavBar>
       <Container>
-        <button>
-          <FiUser size={30} />
+        <button onClick={scrollToTechs}>
+          <FaLaptopCode size={30} />
+        </button>
+        <button onClick={scrollToProjects}>
+          <FaFolderOpen size={30} />
         </button>
         <button>
-          <FiFolder size={30} />
+          <FaFileAlt size={30} />
         </button>
         <button>
-          <FiFileText size={30} />
+          <FaLinkedin size={30} />
         </button>
         <button>
-          <FiLinkedin size={30} />
-        </button>
-        <button>
-          <FiGithub size={30} />
+          <FaGithub size={30} />
         </button>
       </Container>
     </NavBar>

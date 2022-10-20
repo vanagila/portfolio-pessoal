@@ -1,12 +1,13 @@
 import { useTechs } from "../../providers/TechsContext";
 
 import { Container, Box } from "./styles";
+import { forwardRef } from "react";
 
-export const Techs = () => {
+export const Techs = forwardRef((props, ref) => {
   const { techs } = useTechs();
 
   return (
-    <Container>
+    <Container ref={ref}>
       {techs.map((tech) => {
         return (
           <Box key={tech.id}>
@@ -16,4 +17,4 @@ export const Techs = () => {
       })}
     </Container>
   );
-};
+});
