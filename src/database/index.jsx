@@ -23,6 +23,14 @@ export const projectsData = [
     repo: "https://github.com/vanagila/hamburgueria-typescript-json-server.git",
     tags: ["TypeScript - ", "Chakra UI - ", "Context-API - ", "API"],
   },
+  {
+    id: 4,
+    title: "Electrum",
+    img: "https://thumbs2.imgbox.com/0a/29/RdfMtGXz_t.png",
+    demo: "https://vanagila.github.io/electrum-sass/",
+    repo: "https://github.com/vanagila/electrum-sass.git",
+    tags: ["HTML - ", "Sass"],
+  },
 ];
 
 export const techsData = [
