@@ -3,12 +3,15 @@ import styled from "styled-components";
 export const Text = styled.div`
   display: flex;
   justify-content: center;
+
+  @media screen and (min-width: 769px) {
+    align-items: center;
+  }
 `;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 25px;
   color: var(--white-font);
 
   p {
@@ -33,6 +36,17 @@ export const Container = styled.div`
       content: "|";
       opacity: 1;
       animation: blink 0.5s infinite;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    p {
+      font-size: 3rem;
+    }
+
+    img {
+      width: 61px;
+      height: 66px;
     }
   }
 `;

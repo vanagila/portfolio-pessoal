@@ -22,6 +22,9 @@ export const JsonText = () => {
         <em className="parent-children">"css"</em>
         <em className="children">:"^3",</em>
         <br />
+        <em className="parent-children">"sass"</em>
+        <em className="children">:"Dart Sass ^1.55.0",</em>
+        <br />
         <em className="parent-children">"javascript"</em>
         <em className="children">:"^ECMAS6",</em>
         <br />

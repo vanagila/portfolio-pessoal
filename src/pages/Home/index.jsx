@@ -14,8 +14,8 @@ export const Home = () => {
   return (
     <>
       <ButtonToTop />
+      <Nav techsRef={techsRef} projectsRef={projectsRef} />
       <FirstSection>
-        <Nav techsRef={techsRef} projectsRef={projectsRef} />
         <HomeText />
         <JsonText />
       </FirstSection>
