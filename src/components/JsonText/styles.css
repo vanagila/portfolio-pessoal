@@ -5,14 +5,13 @@
 
 .children {
   padding-right: 5px;
-  /* padding-left: 3rem; */
 }
 
 .parent-children {
-  padding-left: 3rem;
+  padding-left: 48px;
   color: var(--green);
 }
 
 .inner-braces {
-  padding-left: 1rem;
+  padding-left: 16px;
 }

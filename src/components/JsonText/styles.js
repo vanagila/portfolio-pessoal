@@ -9,4 +9,9 @@ export const Container = styled.div`
   font-size: 0.875rem;
   line-height: 17px;
   margin-top: 25px;
+
+  @media screen and (min-width: 1025px) {
+    font-size: 1.25rem;
+    line-height: 20px;
+  }
 `;
