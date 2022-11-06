@@ -30,7 +30,6 @@ export default createGlobalStyle`
   }
 
   body {
-    background: rgb(53,53,67);
     background: linear-gradient(180deg, rgba(53,53,67,1) 0%, rgba(39,40,51,1) 35%, rgba(59,55,84,1) 93%);
   }
 
@@ -46,6 +45,27 @@ export default createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)*/
+
+   /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #71f26d #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(53,53,67,1) 0%, rgba(39,40,51,1) 35%, rgba(59,55,84,1) 93%);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #71f26d;
+    border-radius: 10px;
+  }
 
 
 html, body, div, span, applet, object, iframe,
