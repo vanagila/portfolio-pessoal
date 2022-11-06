@@ -1,47 +1,33 @@
 import { useTechs } from "../../providers/TechsContext";
 import { Container, Box } from "./styles";
-import { forwardRef, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { forwardRef } from "react";
+import { motion } from "framer-motion";
 
 export const Techs = forwardRef((props, ref) => {
-  const { ref: animateRef, inView } = useInView({
-    triggerOnce: true,
-  });
-  const animation = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        y: 0,
-        transition: {
-          type: "spring",
-          duration: 1.3,
-          bounce: 0.3,
-        },
-      });
-    } else {
-      animation.start({ y: "-1000vw" });
-    }
-  }, [inView, animation]);
-
   const { techs } = useTechs();
 
   return (
     <div ref={ref}>
-      <div ref={animateRef}>
-        <motion.div animate={animation}>
-          <Container>
-            {techs.map((tech) => {
-              return (
-                <Box key={tech.id}>
-                  <img src={tech.img} alt={tech.name} />
-                </Box>
-              );
-            })}
-          </Container>
-        </motion.div>
-      </div>
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.5 }}
+        variants={{
+          hidden: { opacity: 0, y: -50 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      >
+        <Container>
+          {techs.map((tech) => {
+            return (
+              <Box key={tech.id} aria-label={tech.name}>
+                <img src={tech.img} alt={tech.name} />
+              </Box>
+            );
+          })}
+        </Container>
+      </motion.div>
     </div>
   );
 });

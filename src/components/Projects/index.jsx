@@ -1,5 +1,5 @@
-import { ProjectCard } from "../ProjectCard";
 import { Container, Content } from "./styles";
+import { ProjectCard } from "../ProjectCard";
 import { useProjects } from "../../providers/ProjectsContext";
 import { forwardRef } from "react";
 
