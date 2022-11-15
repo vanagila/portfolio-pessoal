@@ -1,6 +1,4 @@
-import { MotionConfig } from "framer-motion";
 import { FiFolder } from "react-icons/fi";
-
 import { Container, Header, Image, Links, Tags } from "./styles";
 import { motion } from "framer-motion";
 

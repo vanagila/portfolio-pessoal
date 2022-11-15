@@ -5,9 +5,10 @@ import {
   FaFileAlt,
   FaLinkedin,
   FaGithub,
+  FaEnvelope,
 } from "react-icons/fa";
 
-export const Nav = ({ techsRef, projectsRef }) => {
+export const Nav = ({ techsRef, projectsRef, contactRef }) => {
   const scrollToTechs = () => {
     techsRef.current.scrollIntoView({
       behavior: "smooth",
@@ -17,6 +18,13 @@ export const Nav = ({ techsRef, projectsRef }) => {
 
   const scrollToProjects = () => {
     projectsRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
+  const scrollToContact = () => {
+    contactRef.current.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
@@ -68,6 +76,11 @@ export const Nav = ({ techsRef, projectsRef }) => {
             </a>
           </abbr>
         </Link>
+        <Button onClick={scrollToContact}>
+          <abbr title="Email">
+            <FaEnvelope size={30} />
+          </abbr>
+        </Button>
       </Container>
     </NavBar>
   );

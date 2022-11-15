@@ -11,7 +11,7 @@ export const Container = styled.div`
   height: 60px;
   border-radius: 150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0 10px;
   background-color: var(--purple-1);
 
@@ -27,6 +27,7 @@ export const Container = styled.div`
 export const Button = styled.button`
   background: none;
   border: none;
+  padding: 0;
 `;
 
 export const Link = styled.div`
