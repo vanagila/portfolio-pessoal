@@ -1,5 +1,6 @@
 import { Title, Forms, Content } from "./styles";
 import contact from "../../assets/img/contact.svg";
+import { Button } from "../MailButton/styles";
 import { useEffect, forwardRef } from "react";
 import { useInView } from "react-intersection-observer";
 import { useForm } from "react-hook-form";
@@ -117,7 +118,7 @@ export const Contact = forwardRef((props, ref) => {
                 ;
               </span>
             )}
-            <button>Enviar</button>
+            <Button>Enviar</Button>
           </motion.form>
         </Forms>
       </Content>

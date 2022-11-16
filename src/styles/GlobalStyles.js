@@ -18,6 +18,7 @@ export default createGlobalStyle`
 
     /*font and icons pallet*/
     --white-font: #FFFFFF;
+    --black-font: #000000;
     --yellow-dots: #FFC400;
     --green: #71F26D;
 
@@ -35,6 +36,7 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+    border: none;
   }
 
   a {
@@ -50,7 +52,7 @@ export default createGlobalStyle`
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #71f26d #ffffff;
+    scrollbar-color: var(--green) var(--white-font);
   }
 
   /* Chrome, Edge, and Safari */
@@ -63,7 +65,7 @@ export default createGlobalStyle`
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #71f26d;
+    background-color: var(--green);
     border-radius: 10px;
   }
 
