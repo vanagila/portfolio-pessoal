@@ -31,6 +31,14 @@ export const projectsData = [
     repo: "https://github.com/vanagila/electrum-sass.git",
     tags: ["HTML - ", "Sass"],
   },
+  {
+    id: 5,
+    title: "Genius",
+    img: "https://thumbs2.imgbox.com/91/37/J2cY5vaN_t.png",
+    demo: "https://vanagila.github.io/genius-javascript/",
+    repo: "https://github.com/vanagila/genius-javascript.git",
+    tags: ["JavaScript - ", "CSS - ", "HTML"],
+  },
 ];
 
 export const techsData = [
