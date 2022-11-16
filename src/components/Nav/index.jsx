@@ -46,7 +46,7 @@ export const Nav = ({ techsRef, projectsRef, contactRef }) => {
         <Link>
           <abbr title="Currículo">
             <a
-              href="https://docs.google.com/document/d/11zlBnDsKUsLfGykM4XzoIsZqUHsmON4Hot95FdiwYn8/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1qQYwNUdUaCfRvRzfF0o8Le7hUYmfP0caHOabfvBLrfc/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
