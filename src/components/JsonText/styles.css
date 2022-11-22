@@ -1,0 +1,17 @@
+.parent {
+  padding-left: 20px;
+  color: var(--green);
+}
+
+.children {
+  padding-right: 5px;
+}
+
+.parent-children {
+  padding-left: 48px;
+  color: var(--green);
+}
+
+.inner-braces {
+  padding-left: 16px;
+}
