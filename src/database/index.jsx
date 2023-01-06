@@ -39,6 +39,14 @@ export const projectsData = [
     repo: "https://github.com/vanagila/genius-javascript.git",
     tags: ["JavaScript - ", "CSS - ", "HTML"],
   },
+  {
+    id: 6,
+    title: "Jiffy",
+    img: "https://thumbs2.imgbox.com/4f/26/njadHlPe_t.png",
+    demo: "https://jiffy-giphy.vercel.app/",
+    repo: "https://github.com/vanagila/jiffy.git",
+    tags: ["JavaScript - ", "API - ", "CSS - ", "HTML"],
+  },
 ];
 
 export const techsData = [

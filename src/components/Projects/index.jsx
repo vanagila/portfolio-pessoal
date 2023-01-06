@@ -10,9 +10,11 @@ export const Projects = forwardRef((props, ref) => {
     <Container>
       <h2 ref={ref}>PROJETOS</h2>
       <Content>
-        {projects.map((project, id) => {
-          return <ProjectCard key={id} project={project} />;
-        })}
+        {projects
+          .map((project, id) => {
+            return <ProjectCard key={id} project={project} />;
+          })
+          .reverse()}
       </Content>
     </Container>
   );
