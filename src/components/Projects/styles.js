@@ -19,12 +19,12 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   gap: 15px;
 
   @media screen and (min-width: 769px) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
