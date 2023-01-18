@@ -33,18 +33,10 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "Genius",
-    img: "https://thumbs2.imgbox.com/91/37/J2cY5vaN_t.png",
-    demo: "https://vanagila.github.io/genius-javascript/",
-    repo: "https://github.com/vanagila/genius-javascript.git",
-    tags: ["JavaScript - ", "CSS - ", "HTML"],
-  },
-  {
-    id: 6,
-    title: "Jiffy",
-    img: "https://thumbs2.imgbox.com/4f/26/njadHlPe_t.png",
-    demo: "https://jiffy-giphy.vercel.app/",
-    repo: "https://github.com/vanagila/jiffy.git",
+    title: "Gif Roulette",
+    img: "https://thumbs2.imgbox.com/1a/98/m4c3Kzqh_t.png",
+    demo: "https://gif-roulette.vercel.app/",
+    repo: "https://github.com/vanagila/gif-roulette.git",
     tags: ["JavaScript - ", "API - ", "CSS - ", "HTML"],
   },
 ];
